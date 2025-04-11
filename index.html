@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random YouTube Short</title>
+  <script>
+    const videos = [
+      "https://youtube.com/shorts/2Kt5OAXtXk0",
+      "https://youtube.com/shorts/jEiXcCC6YBc",
+      "https://youtube.com/shorts/fKpuZy6MN0o",
+      "https://youtube.com/shorts/T3uM9weIZTQ",
+      "https://youtube.com/shorts/U5VlcSF8y0Q",
+      "https://youtube.com/shorts/HYaPRwncvd0",
+      "https://youtube.com/shorts/asfXkmZcx2k",
+      "https://youtube.com/shorts/ADiokRTvLus",
+      "https://youtube.com/shorts/Y0ZUk1bAh1E"
+    ];
+
+    window.onload = function () {
+      const randomIndex = Math.floor(Math.random() * videos.length);
+      window.location.href = videos[randomIndex];
+    };
+  </script>
+</head>
+<body>
+  <h2>Redirecting to a random YouTube Short...</h2>
+</body>
+</html>
